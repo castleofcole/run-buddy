@@ -12,7 +12,7 @@
         <header>
             <!--use "/" to go to topmost directory. index.html is used because no topdirectory is specified.-->
             <h1> 
-                <a href="/">RUN BUDDY test "a"</a> 
+                <a href="/">RUN BUDDY</a> 
             </h1>
 
             <nav>
@@ -38,7 +38,43 @@
 
         <!--hero/jumbotron-->
         <section>
-
+            <div>
+                <h3>Get Started Today</h3>
+                <p>Fill out this form and one of our trainers will schedule a consult</p>
+                <!-- Add form element -->
+                <form>
+                    <!--Name Label and text field-->
+                    <label for="name">Enter full name:</label>
+                    <input type="text" placeholder="Your Name" name="name" id="name" />
+                    <!--Email label and text field-->
+                    <label for="email">Enter email address:</label>
+                    <input type="email" placeholder="Email Address" name="email" id="email" />
+                    <!--Phone Number label and text field-->
+                    <label for="phone">Enter phone number:</label>
+                    <input type="tel" placeholder="Phone Number" name="phone" id="phone" />
+                    <!--Radio buttons for Previous Training -->                   
+                    <p>
+                        Have you worked out with a trainer before?                    
+                        <!--Previous Training: Yes-->
+                        <input type="radio" name="trainer-confirm" id="trainer-yes"/>
+                        <label for="trainer-yes">Yes</label>
+                        <!--Previous Training: No-->
+                        <input type="radio" name="trainer-confirm" id="trainer-no" />
+                        <label for="trainer-no">No</label>
+                    </p>
+                    <!--Checkbox for 18 years old-->
+                    <p>
+                        <label for="checkbox">
+                            I acknowledge that I am at least 18 years of age.
+                        </label>
+                            <input type="checkbox" name="age-confirm" id="checkbox"/>
+                    </p>
+                    <!--Submit Button-->
+                    <button type="submit">
+                        Get running!
+                    </button>
+                </form>
+            </div>
         </section>
 
         <!--"what we do" section-->
@@ -64,6 +100,11 @@
         <!--footer-->
         <footer>
             <h2>❤ Made with love by Run Buddy.</h2>
+
+            <div>
+                <a href="#">Read Our Privacy Policy</a><br />
+                &copy; 2019 Run Buddy, Inc.
+            </div>
         </footer>
 
     </body>
