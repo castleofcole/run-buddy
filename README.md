@@ -1,4 +1,4 @@
-# Run Buddy Inc. LOCAL
+# Run Buddy, Inc ONLINE
 
 ## Purpose
 A website that offers fitness training services. 
